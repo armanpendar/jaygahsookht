@@ -1,4 +1,4 @@
-# jaygahsookht.github.io
+# jaygahsookht
 
 
 Fuel station sales management software
