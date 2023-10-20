@@ -71,6 +71,21 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+/* Image Hover and Resize */
+
+.zoom {
+  transition: transform .2s;
+  margin: 2px auto;	
+  width: 100%;
+  height: auto;
+  max-width: 430px;
+  max-height: 200px;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
